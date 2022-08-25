@@ -1,0 +1,52 @@
+.hero__title {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 64px;
+    color: #202336;
+    width: 70%;
+}
+
+.hero__text {
+    font-weight: 600;
+    font-size: 22px;
+    color: #202336;
+    margin-top: 74px;
+    margin-bottom: 21px;
+}
+
+.hero__hr-short {
+    width: 32px;
+    height: 2px;
+    background: #202336;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.hero__selector {
+    font-size: 15px;
+    color: #4A4C53;
+    width: 220px;
+    height: 52px;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+}
+
+.hero__table {
+    margin-top: 48px;
+    margin-bottom: 47px;
+}
+
+.hero__button {
+    width: 180px;
+    height: 52px;
+    background: #FB8F1D;
+    border-radius: 8px;
+    color: #fff;
+    border: 1px solid #FB8F1D;
+    padding: 4px 60px;
+}
+
+.hero__image {
+    float: left;
+    width: 50%;
+}

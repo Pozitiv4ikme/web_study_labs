@@ -1,0 +1,11 @@
+.arrow-down::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.arrow-down {
+    text-align: left;
+    float: left;
+    width: 50%;
+}
