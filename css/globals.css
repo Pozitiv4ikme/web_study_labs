@@ -15,17 +15,12 @@ li {
 select {
     display: block;
     font-family:inherit;
-    padding: 0.5em 2em;
+    padding-right: 0.5em 2em;
     appearance: none;
     background-image: url(/img/down-arrow.svg);
     background-repeat: no-repeat;
     background-position: right 1.8rem center;
     background-size: 0.6em;
-}
-
-td {
-    padding-right: 30px;
-    padding-bottom: 35px;
 }
 
 .container {

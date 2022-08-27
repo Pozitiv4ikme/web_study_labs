@@ -1,21 +1,22 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .header__nav ul {
     display: flex;
+    align-items: center;
 }
 
 .header__nav-link {
     font-weight: 400;
-    padding-top: 10px;
     margin-right: 34px;
 }
 
 .header__nav-link-home {
     font-weight: 500;
-    padding-top: 10px;
     margin-right: 35px;
 }
 
@@ -46,5 +47,4 @@
     float: left;
     width: 41px;
     height: 41px;
-    margin-top: 15px;
 }

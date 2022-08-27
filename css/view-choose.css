@@ -1,0 +1,86 @@
+.view-choose {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+.view-choose__text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.view-choose__view-more-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px; 
+}
+
+.view-choose__view-more-images > img {
+    width: 13%;
+}
+
+.view-choose__images {
+    justify-content: space-between;
+    display: flex;
+    flex: 2;
+}
+
+.view-choose__title {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 50px; 
+}
+
+.view-choose__view {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 17px;
+    color: #FB8F1D;
+    display: flex;
+    white-space: nowrap;
+    margin-right: 10px;
+    /* align-items: center; */
+}
+
+.view-choose__country {
+    position: relative;
+}
+
+.view-choose__country-info {
+    font-family: "Inter", sans-serif;
+    color: #202336;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    bottom: 4px;
+    left: -1px;
+    padding: 5px 20px 0 0;
+    background-color: #fff;
+    border-top-right-radius: 8px;
+    position: absolute;
+}
+
+.view-choose__country-info > h4 {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    text-align: left;
+}
+
+.view-choose__country-info > h6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #80918E;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.view-choose__country > img {
+    border-radius: 3%;
+}

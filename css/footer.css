@@ -1,0 +1,27 @@
+.footer {
+    background: #F8F8F8;
+    padding-bottom: 40px;
+}
+
+.footer__copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__copyright > h5 {
+    text-align: right;
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 17px;
+    color: #848484;
+}
+
+.footer__social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__social-media > img {
+    margin-right: 35px;
+}
