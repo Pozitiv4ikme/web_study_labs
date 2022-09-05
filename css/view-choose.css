@@ -21,6 +21,11 @@
     width: 13%;
 }
 
+.view-choose__images img:hover {
+    transform-origin: top center;
+	animation: swing 2s ease 1;
+}
+
 .view-choose__images {
     justify-content: space-between;
     display: flex;
