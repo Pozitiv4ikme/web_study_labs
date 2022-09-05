@@ -84,3 +84,116 @@
 .view-choose__country > img {
     border-radius: 3%;
 }
+
+@media screen and (max-width: 2560px) and (min-width: 1440px) {
+    .view-choose__country > img {
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+    .view-choose__country > img {
+        width: 18.6vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .view-choose__country > img {
+        width: 18.45vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .view-choose__country > img {
+        width: 95%;
+    }
+
+    .view-choose__country-info {
+        line-height: 18px;
+        bottom: 3px;
+        left: 3px;
+        padding: 3px 11px 0 0;
+    }
+
+    .view-choose__title {
+        font-size: 28px;
+    }
+
+    .view-choose__country-info > h4 {
+        font-size: 14px;
+    }
+
+    .view-choose__country-info > h6 {
+        font-size: 12px;
+    }
+
+    .view-choose__view {
+        font-size: 13px;
+    }
+
+    .view-choose {
+        margin-bottom: 65px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .view-choose__country > img {
+        display: none;
+    }
+
+    .view-choose__country-info {
+        position: static;
+        border: 1px solid #000;
+        border-radius: 5% 5% 5% 5%;
+    }
+
+    .view-choose__country-info > h6 {
+        padding-left: 7px;
+    }
+
+    .view-choose__country-info > h4 {
+        padding-left: 7px;
+    }
+
+    .view-choose__text > h6 {
+        font-size: 22px;
+    }
+
+    .view-choose__view-more-images {
+        margin-top: 0;
+    }
+
+    .view-choose__view-more-images > p {
+        font-size: 12px;
+        margin-right: 1vw;
+    }
+
+    .view-choose__view-more-images > img {
+        width: 9%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .view-choose {
+        margin-bottom: 0;
+    }
+
+    .view-choose__text > h6 {
+        font-size: 1.25em;
+    }
+
+    .view-choose__view-more-images > p {
+        font-size: 0.65em;
+    }
+
+    .view-choose__view-more-images > img {
+        width: 7%;
+    }
+
+    .view-choose__images {
+        display: none;
+    }
+}

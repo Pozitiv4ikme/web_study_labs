@@ -54,3 +54,120 @@
     margin-top: 60px;
     margin-bottom: 70px;
 }
+
+@media screen and (max-width: 2560px) and (min-width: 1440px) {
+    .information-page__image > img {
+        width: 25vw;
+        margin-left: 16vw;
+    }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+    .information-page {
+        margin-top: 10vh;
+    }
+    
+    .information-page__image > img {
+        width: 42vw;
+    }
+
+    .information-page__title {
+        text-align: center;
+    }
+
+    .information-page__text-about {
+        text-align: center;
+    }
+
+    .information-page__text {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .information-page {
+        margin-top: 10vh;
+    }
+
+    .information-page__title {
+        text-align: center;
+        padding-top: 10vh;
+        font-size: 2em;
+        padding-top: 7vh;
+    }
+
+    .information-page__text-about {
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+
+    .information-page__text {
+        align-items: center;
+    }
+
+    .information-page__image > img {
+        width: 30vw;
+        margin-top: 8.5vh;
+        margin-bottom: 9vh;
+    }
+
+    .information-page__button {
+        width: 21vw;
+        height: 6vh;
+        font-size: 1em;
+        border: 1px solid #FB8F1D;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .information-page__image {
+        display: none;
+    }
+
+    .information-page__text-about {
+        text-align: center;
+    }
+
+    .information-page__title {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .information-page__text {
+        align-items: center;
+    }
+    
+    .information-page {
+        padding-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .information-page__title {
+        font-size: 2.1em;
+    }
+
+    .information-page__text {
+        font-size: 1em;
+    }
+
+    .information-page__button {
+        width: 31vw;
+        height: 6vh;
+        font-size: 18px;
+        border: 1px solid #FB8F1D;
+    } 
+}
+
+@media screen and (max-width: 576px) {
+    .information-page__title {
+        font-size: 1.85em;
+    }
+
+    .information-page__text-about {
+        font-size: 0.9em;
+    }
+
+    .information-page__button {
+        font-size: 0.9em;
+    } 
+}

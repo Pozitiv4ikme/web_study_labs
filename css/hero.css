@@ -62,11 +62,127 @@
     flex: 1;
 }
 
-.hero__image > img {
+.hero__image>img {
     width: 110%;
 }
 
 .hero {
     display: flex;
     flex-direction: row;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+    .hero {
+        padding-top: 4vh;
+    }
+
+    .hero__title {
+        margin-bottom: 2vh;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .hero {
+        padding-top: 5vh;
+    }
+
+    .hero__title {
+        font-size: 3.5em;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+    }
+
+    .hero__text {
+        font-size: 1.25em;
+        margin-top: 3vh;
+    }
+
+    .hero__hr-short {
+        width: 5%;
+    }
+
+    .hero__table {
+        margin-top: 6.5vh;
+    }
+
+    .hero__selector {
+        font-size: 1em;
+        width: 21vw;
+        height: 6.5vh;
+        padding-left: 4.8vw;
+        margin-bottom: 3vh;
+        margin-right: 4.4vw;
+    }
+
+    .hero__button {
+        font-size: 0.9em;
+        width: 21vw;
+        height: 6.5vh;
+        padding: 0.5vh 7.5vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        padding-top: 10vh;
+    }
+
+    .hero__title {
+        font-size: 3.5em;
+        margin-bottom: 2.85vh;
+    }
+
+    .hero__text {
+        font-size: 1.45em;
+        margin-top: 1vh;
+    }
+
+    .hero__image {
+        display: none;
+    }
+
+    .hero__hr-short {
+        width: 5vw;
+    }
+
+    .hero__table {
+        margin-top: 4vh;
+        margin-bottom: 1vh;
+    }
+
+    .hero__selector {
+        font-size: 0.94em;
+        width: 40vw;
+        height: 6.5vh;
+        padding-left: 4.8vw;
+        margin-bottom: 3vh;
+        margin-right: 4.4vw;
+    }
+
+    .hero__button {
+        font-size: 1em;
+        width: 30vw;
+        height: 6.5vh;
+        padding: 0.5vh 10.5vw;
+    }
+}
+
+@media screen and (max-width: 576px) and (min-width: 320px) {
+    .hero__selector {
+        font-size: 13px;
+    }
+
+    .hero__title {
+        font-size: 3em;
+    }
+
+    .hero__text {
+        font-size: 1.25em;
+    }
+
+    .hero__button {
+        font-size: 0.9em;
+        width: 34vw;
+        padding: 0.6vh 11vw;
+    }
 }

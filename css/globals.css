@@ -14,7 +14,7 @@ li {
 
 select {
     display: block;
-    font-family:inherit;
+    font-family: inherit;
     padding-right: 0.5em 2em;
     appearance: none;
     background-image: url(/img/down-arrow.svg);
@@ -32,4 +32,28 @@ select {
     text-align: center;
     padding: 2% 10%;
     min-width: 80%;
+}
+
+@media screen and (max-width: 2560px) {
+    .centered {
+        padding: 4vh 14vw;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .centered {
+        padding: 2.65% 7.65%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .centered {
+        padding: 2.5% 7.5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .centered {
+        padding: 2% 7%;
+    }
 }

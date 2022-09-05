@@ -20,26 +20,33 @@
 
     <!-- Header -->
     <header class="header container centered">
+        <div class="header__menu" onclick="toggleMenu()">
+            <img src="img/Hamburger_icon.svg.png" alt="Menu icon">
+        </div>
         <div class="header__logo">
             <img class="logo-img" src="img/logo.svg" alt="logo">
         </div>
         <div class="header__item">
             <nav class="header__nav">
                 <ul class="header__list">
-                    <li class="header__nav-link-home"><a href="" class="home">Home</a></li>
-                    <li class="header__nav-link"><a href="">Destinations</a></li>
-                    <li class="header__nav-link"><a href="">About</a></li>
-                    <li class="header__nav-link"><a href="">Partner</a></li>
-                    <button class="header__nav-login">Login</button>
-                    <button class="header__nav-register">Register</button>
+                    <nav id="nav-links" class="header__nav-menu">
+                        <ul>
+                            <li class="header__nav-link-home"><a href="" class="home">Home</a></li>
+                            <li class="header__nav-link"><a href="">Destinations</a></li>
+                            <li class="header__nav-link"><a href="">About</a></li>
+                            <li class="header__nav-link"><a href="">Partner</a></li>
+                        </ul>
+                    </nav>
+                    <button type="button" class="header__nav-login">Login</button>
+                    <button type="button" class="header__nav-register">Register</button>
                 </ul>
             </nav>
         </div>
     </header>
 
     <!-- Section hero -->
-    <section class="hero centered">
-        <div class="hero__information">
+    <main class="hero centered">
+        <section class="hero__information">
             <h1 class="hero__title">Explore and <br>
                 Travel</h1>
             <p class="hero__text">Holiday finder</p>
@@ -89,12 +96,12 @@
                     </tr>
                 </table>
             </div>
-            <button class="hero__button">Explore</button>
-        </div>
-        <div class="hero__image">
+            <button type="button" class="hero__button">Explore</button>
+        </section>
+        <section class="hero__image">
             <img src="img/blocks/man_with_earth.svg" alt="traveling guy">
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Section information page -->
     <section class="information-page centered">
@@ -108,7 +115,7 @@
                 books when looking to plan and execute their perfect <br>
                 trip, but now, they can also let Lonely Planet Experiences <br>
                 lead the way</h6>
-            <button class="information-page__button">Learn more</button>
+            <button type="button" class="information-page__button">Learn more</button>
         </div>
     </section>
 
@@ -128,7 +135,7 @@
             <div class="view-choose__country">
                 <img src="img/destinations/image1.svg" alt="Indonesia ocean">
                 <div class="view-choose__country-info">
-                    <h4>Raja Ampat</h4> 
+                    <h4>Raja Ampat</h4>
                     <h6>Indonesia</h6>
                 </div>
             </div>
@@ -136,7 +143,7 @@
             <div class="view-choose__country">
                 <img src="img/destinations/image2.svg" alt="China hills">
                 <div class="view-choose__country-info">
-                    <h4>Fanjingshan</h4> 
+                    <h4>Fanjingshan</h4>
                     <h6>China</h6>
                 </div>
             </div>
@@ -144,7 +151,7 @@
             <div class="view-choose__country">
                 <img src="img/destinations/image3.svg" alt="Switzerland lake">
                 <div class="view-choose__country-info">
-                    <h4>Vevey</h4> 
+                    <h4>Vevey</h4>
                     <h6>Swizerland</h6>
                 </div>
             </div>
@@ -152,11 +159,11 @@
             <div class="view-choose__country">
                 <img src="img/destinations/image4.svg" alt="Montenegro nature">
                 <div class="view-choose__country-info">
-                    <h4>Skadar</h4> 
+                    <h4>Skadar</h4>
                     <h6>Montenegro</h6>
                 </div>
             </div>
-            
+
         </div>
     </section>
 
@@ -178,6 +185,8 @@
             <img src="img/media-logos/Youtube.svg" alt="Youtube">
         </div>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
