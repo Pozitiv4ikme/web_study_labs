@@ -57,9 +57,42 @@
 }
 
 @media screen and (max-width: 2560px) and (min-width: 1440px) {
+    .information-page {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
     .information-page__image > img {
-        width: 25vw;
+        width: 30vw;
         margin-left: 16vw;
+        animation: none;
+        opacity: 0.85;
+    }
+
+    .information-page__image > img:hover {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+
+    .information-page__title {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .information-page__text-about {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .information-page__text {
+        align-items: center;
+    }
+
+    .information-page__button {
+        width: 12vw;
+        height: 3.5vh;
+        margin-top: 3vh;
+        font-size: 1.5em;
     }
 }
 
@@ -71,7 +104,6 @@
     .information-page__image > img {
         width: 42vw;
     }
-
     .information-page__title {
         text-align: center;
     }
@@ -116,7 +148,6 @@
         width: 21vw;
         height: 6vh;
         font-size: 1em;
-        border: 1px solid #FB8F1D;
     }
 }
 

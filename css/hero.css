@@ -64,12 +64,56 @@
 
 .hero__image>img {
     width: 110%;
-    animation: pulse 5s infinite ease-in-out alternate;
 }
 
 .hero {
     display: flex;
     flex-direction: row;
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1440px) {
+    .hero {
+        padding-top: 3vh;
+    }
+
+    .hero__image > img {
+        width: 90%;
+    }
+
+    .hero__title {
+        font-size: 5em;
+        margin-top: 3vh;
+        margin-bottom: 1vh;
+    }
+
+    .hero__text {
+        font-size: 2em;
+        margin-top: 3vh;
+    }
+
+    .hero__hr-short {
+        width: 5%;
+    }
+
+    .hero__table {
+        margin-top: 4.5vh;
+    }
+
+    .hero__selector {
+        font-size: 1.5em;
+        width: 12vw;
+        height: 4.5vh;
+        padding-left: 2.8vw;
+        margin-bottom: 2vh;
+        margin-right: 3.4vw;
+    }
+
+    .hero__button {
+        font-size: 2em;
+        width: 15vw;
+        height: 4.5vh;
+        padding: 0.5vh 5.5vw;
+    }
 }
 
 @media screen and (max-width: 1440px) and (min-width: 1024px) {

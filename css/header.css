@@ -59,6 +59,50 @@
     height: 41px;
 }
 
+@media screen and (max-width: 2560px) and (min-width: 1440px) {
+    .header {
+        padding-bottom: 0;
+    }
+
+    .header__logo > img {
+        width: 3vw;
+        height: 3.5vh;
+    }
+
+    .header__list {
+        padding-left: 5vw;;
+    }
+
+    .header__list a {
+        font-size: 1.5em;
+    }
+
+    .header__list ul {
+        padding-left: 6vw;
+    }
+
+    .header__nav-login {
+        font-size: 1.5em;
+        width: 9vw;
+        padding: 1vh 3vw;
+        margin-right: 1.5vw;
+    }
+
+    .header__nav-register {
+        font-size: 1.5em;
+        padding: 1vh 3vw;
+        width: 10vw;
+    }
+
+    .header__nav-login:hover, .header__nav-login:focus {
+        animation: pulse 1s 2 ease-in-out alternate;
+    }
+
+    .header__nav-register:hover, .header__nav-register:focus {
+        animation: pulse 1s 2 ease-in-out alternate;
+    }
+}
+
 @media screen and (max-width: 1440px) and (min-width: 1024px) {
     .header {
         padding-bottom: 0;

@@ -92,7 +92,50 @@
 
 @media screen and (max-width: 2560px) and (min-width: 1440px) {
     .view-choose__country > img {
-        width: 15vw;
+        width: 16vw;
+    }
+
+    .view-choose__country-info {
+        line-height: 3vh;
+        bottom: 0.1vh;
+        left: 0;
+        padding: 0.4vh 3vw 0.1vh 0.2vw;
+        font-size: 2em;
+        border-top-right-radius: 1vh;
+    }
+
+    .view-choose__title {
+        font-size: 2.5em;
+    }
+
+
+    .view-choose__country > img {
+        border-radius: 4%;
+    }
+
+    .view-choose__view-more-images > img {
+        width: 0.25vw;
+    }
+
+    .view-choose__images img:hover {
+        transform-origin: none;
+        animation: none;
+    }
+
+    .view-choose__country-info > h4 {
+        font-size: 0.9em;
+    }
+
+    .view-choose__country-info > h6 {
+        font-size: 0.75em;
+    }
+
+    .view-choose__view {
+        font-size: 1.2em;
+    }
+
+    .view-choose {
+        margin-bottom: 65px;
     }
 }
 
