@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore and Travel</title>
+
+    <!-- Roboto font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <!-- Playfair Display font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- Mulish font -->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <!-- My styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header container centered">
+        <div class="header__menu" onclick="toggleMenu()">
+            <img src="img/Hamburger_icon.svg.png" alt="Menu icon">
+        </div>
+        <div class="header__logo">
+            <img class="logo-img" src="img/logo.svg" alt="logo">
+        </div>
+        <div class="header__item">
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <nav id="nav-links" class="header__nav-menu">
+                        <ul>
+                            <li class="header__nav-link-home"><a href="" class="home">Home</a></li>
+                            <li class="header__nav-link"><a href="">Destinations</a></li>
+                            <li class="header__nav-link"><a href="">About</a></li>
+                            <li class="header__nav-link"><a href="">Partner</a></li>
+                        </ul>
+                    </nav>
+                    <button type="button" class="header__nav-login">Login</button>
+                    <button type="button" class="header__nav-register">Register</button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section hero -->
+    <main class="hero centered">
+        <section class="hero__information">
+            <h1 class="hero__title">Explore and <br>
+                Travel</h1>
+            <p class="hero__text">Holiday finder</p>
+            <hr class="hero__hr-short">
+            <div class="hero__table-wrapper">
+                <table class="hero__table">
+                    <tr>
+                        <td>
+                            <select class="hero__selector">
+                                <option value="default" selected>Location</option>
+                                <option value="option1">Ukraine</option>
+                                <option value="option2">Egypt</option>
+                                <option value="option3">United Kingdom</option>
+                                <option value="option4">Turkey</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="hero__selector">
+                                <option value="default" selected>Activity</option>
+                                <option value="option1">Diving</option>
+                                <option value="option2">Hiking</option>
+                                <option value="option3">Shopping</option>
+                                <option value="option4">Entertainment</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <select class="hero__selector">
+                                <option value="default" selected>Grade</option>
+                                <option value="option1">2</option>
+                                <option value="option2">3</option>
+                                <option value="option3">4</option>
+                                <option value="option4">5</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="hero__selector">
+                                <option value="default" selected>Date</option>
+                                <option value="option1">one day</option>
+                                <option value="option2">one week</option>
+                                <option value="option3">six months</option>
+                                <option value="option4">one year</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <button type="button" class="hero__button">Explore</button>
+        </section>
+        <section class="hero__image">
+            <img src="img/blocks/man_with_earth.svg" alt="traveling guy">
+        </section>
+    </main>
+
+    <!-- Section information page -->
+    <section class="information-page centered">
+        <div class="information-page__image">
+            <img src="img/blocks/women_with_ballon.svg" alt="traveling women">
+        </div>
+        <div class="information-page__text">
+            <h5 class="information-page__title">A new way to explore the world</h5>
+            <h6 class="information-page__text-about">
+                For decades travellers have reached for Lonely Planet <br>
+                books when looking to plan and execute their perfect <br>
+                trip, but now, they can also let Lonely Planet Experiences <br>
+                lead the way</h6>
+            <button type="button" class="information-page__button">Learn more</button>
+        </div>
+    </section>
+
+    <!-- Section view choose -->
+    <section class="view-choose centered">
+
+        <div class="view-choose__text">
+            <h6 class="view-choose__title">Featured destinations</h6>
+            <div class="view-choose__view-more-images">
+                <p class="view-choose__view">View all</p>
+                <img src="img/view_cursor_down.svg" alt="view all">
+            </div>
+        </div>
+
+        <div class="view-choose__images">
+
+            <div class="view-choose__country">
+                <img src="img/destinations/image1.svg" alt="Indonesia ocean">
+                <div class="view-choose__country-info">
+                    <h4>Raja Ampat</h4>
+                    <h6>Indonesia</h6>
+                </div>
+            </div>
+
+            <div class="view-choose__country">
+                <img src="img/destinations/image2.svg" alt="China hills">
+                <div class="view-choose__country-info">
+                    <h4>Fanjingshan</h4>
+                    <h6>China</h6>
+                </div>
+            </div>
+
+            <div class="view-choose__country">
+                <img src="img/destinations/image3.svg" alt="Switzerland lake">
+                <div class="view-choose__country-info">
+                    <h4>Vevey</h4>
+                    <h6>Swizerland</h6>
+                </div>
+            </div>
+
+            <div class="view-choose__country">
+                <img src="img/destinations/image4.svg" alt="Montenegro nature">
+                <div class="view-choose__country-info">
+                    <h4>Skadar</h4>
+                    <h6>Montenegro</h6>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer centered">
+        <div class="footer__copyright">
+            <img src="img/logo.svg" alt="logo">
+            <h5>©2020 Thousand Sunny. All rights reserved</h5>
+        </div>
+
+        <div class="footer__short">
+            <hr class="footer__shor-line">
+        </div>
+
+        <div class="footer__social-media">
+            <img src="img/media-logos/Twitter.svg" alt="Twitter">
+            <img src="img/media-logos/Facebook.svg" alt="Facebook">
+            <img src="img/media-logos/Instagram.svg" alt="Instagram">
+            <img src="img/media-logos/LinkedIn.svg" alt="LinkedIn">
+            <img src="img/media-logos/Youtube.svg" alt="Youtube">
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

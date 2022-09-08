@@ -1,0 +1,247 @@
+.view-choose {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+.view-choose__text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.view-choose__view-more-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px; 
+}
+
+.view-choose__view-more-images > img {
+    width: 13%;
+}
+
+.view-choose__images img:hover {
+    transform-origin: top center;
+	animation: swing 2s ease 1;
+}
+
+.view-choose__images {
+    justify-content: space-between;
+    display: flex;
+    flex: 2;
+}
+
+.view-choose__title {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 50px; 
+}
+
+.view-choose__view {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 17px;
+    color: #FB8F1D;
+    display: flex;
+    white-space: nowrap;
+    margin-right: 10px;
+    /* align-items: center; */
+}
+
+.view-choose__country {
+    position: relative;
+}
+
+.view-choose__country-info {
+    font-family: "Inter", sans-serif;
+    color: #202336;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    bottom: 4px;
+    left: -1px;
+    padding: 5px 20px 0 0;
+    background-color: #fff;
+    border-top-right-radius: 8px;
+    position: absolute;
+}
+
+.view-choose__country-info > h4 {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    text-align: left;
+}
+
+.view-choose__country-info > h6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #80918E;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.view-choose__country > img {
+    border-radius: 3%;
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1440px) {
+    .view-choose__country > img {
+        width: 16vw;
+    }
+
+    .view-choose__country-info {
+        line-height: 3vh;
+        bottom: 0.1vh;
+        left: 0;
+        padding: 0.4vh 3vw 0.1vh 0.2vw;
+        font-size: 2em;
+        border-top-right-radius: 1vh;
+    }
+
+    .view-choose__title {
+        font-size: 2.5em;
+    }
+
+
+    .view-choose__country > img {
+        border-radius: 4%;
+    }
+
+    .view-choose__view-more-images > img {
+        width: 0.25vw;
+    }
+
+    .view-choose__images img:hover {
+        transform-origin: none;
+        animation: none;
+    }
+
+    .view-choose__country-info > h4 {
+        font-size: 0.9em;
+    }
+
+    .view-choose__country-info > h6 {
+        font-size: 0.75em;
+    }
+
+    .view-choose__view {
+        font-size: 1.2em;
+    }
+
+    .view-choose {
+        margin-bottom: 65px;
+    }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+    .view-choose__country > img {
+        width: 18.6vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .view-choose__country > img {
+        width: 18.45vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .view-choose__country > img {
+        width: 95%;
+    }
+
+    .view-choose__country-info {
+        line-height: 18px;
+        bottom: 3px;
+        left: 3px;
+        padding: 3px 11px 0 0;
+    }
+
+    .view-choose__title {
+        font-size: 28px;
+    }
+
+    .view-choose__country-info > h4 {
+        font-size: 14px;
+    }
+
+    .view-choose__country-info > h6 {
+        font-size: 12px;
+    }
+
+    .view-choose__view {
+        font-size: 13px;
+    }
+
+    .view-choose {
+        margin-bottom: 65px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .view-choose__country > img {
+        display: none;
+    }
+
+    .view-choose__country-info {
+        position: static;
+        border: 1px solid #000;
+        border-radius: 5% 5% 5% 5%;
+    }
+
+    .view-choose__country-info > h6 {
+        padding-left: 7px;
+    }
+
+    .view-choose__country-info > h4 {
+        padding-left: 7px;
+    }
+
+    .view-choose__text > h6 {
+        font-size: 22px;
+    }
+
+    .view-choose__view-more-images {
+        margin-top: 0;
+    }
+
+    .view-choose__view-more-images > p {
+        font-size: 12px;
+        margin-right: 1vw;
+    }
+
+    .view-choose__view-more-images > img {
+        width: 9%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .view-choose {
+        margin-bottom: 0;
+    }
+
+    .view-choose__text > h6 {
+        font-size: 1.25em;
+    }
+
+    .view-choose__view-more-images > p {
+        font-size: 0.65em;
+    }
+
+    .view-choose__view-more-images > img {
+        width: 7%;
+    }
+
+    .view-choose__images {
+        display: none;
+    }
+}
