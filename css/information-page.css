@@ -1,0 +1,56 @@
+.information-page {
+    background: #F8F8F8;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: row;
+}
+
+.information-page__image > img {
+    display: flex;
+    flex: 1;
+}
+
+.information-page__text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.information-page__title {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    margin: 0;
+    text-align: left;
+    padding-top: 125px;
+}
+
+.information-page__text-about {
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 17px;
+    color: #7D7987;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.information-page__button {
+    width: 164px;
+    height: 48px;
+    background: #FB8F1D;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid #FB8F1D;
+} 
+
+.information-page__image > img {
+    width: 80%;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
